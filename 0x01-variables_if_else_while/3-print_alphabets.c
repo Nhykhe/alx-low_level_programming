@@ -13,7 +13,8 @@ int main(void)
 }
 	for (cap = 'A'; cap <= 'Z'; cap++)
 	{
-		putchar('\n');
+		putchar(cap);
 	}
-	return (0);
+		putchar('\n');
+return (0);
 }
