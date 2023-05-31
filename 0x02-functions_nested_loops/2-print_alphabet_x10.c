@@ -1,7 +1,9 @@
 #include "main.h"
 /**
- * print_alphbet_x10 - prints the alphabet x10
- * Return: Always 0
+ * print_alphbet_x10 - a function that prints x10 the alphabet
+ * in lower case, followed by a newline
+ *
+ * Return: x10 a-z
  */
 void print_alphabet_x10(void)
 {
