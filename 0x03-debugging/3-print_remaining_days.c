@@ -3,9 +3,9 @@
 /**
  * print_remaining_days - takes a date and print how many dsys are
  * left in the year, taking leap year into account
- * @month - month in number format(1 - 12)
- * @day - day of month(1 - 31)
- * @year - year(greater than 0)
+ * @month: month in number format(1 - 12)
+ * @day: day of month(1 - 31)
+ * @year:  year(greater than 0)
  *
  * Description: determines how many days are remaining in a year, prints
  * this values along with the strig indicating the month and the day.
