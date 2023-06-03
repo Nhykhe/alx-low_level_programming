@@ -7,18 +7,18 @@ int main(void)
 {
 	int x, y;
 
-	for (x = 0; x < 100; x++)
+	for (x = 48; x < 57; x++)
 	{
-	for (y = x; y < 100; y++)
+	for (y = x; y < 57; y++)
 	if (x == 0 && y == 0)
 		continue;
 	}
-	putchar(x / 10 + '0');
-	putchar(x % 10 + '0');
+	putchar(x / 48 + '0');
+	putchar(x % 48 + '0');
 	putchar(' ');
-	putchar(y / 10 + '0');
-	putchar(y % 10 + '0');
-	if (!(x == 99 && y == 99))
+	putchar(y / 48 + '0');
+	putchar(y % 48 + '0');
+	if (!(x == 56 && y == 56))
 	{
 	putchar(',');
 	putchar(' ');
