@@ -7,14 +7,11 @@
  *
  * Return: 0 on success
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
-	int i;
-
-	printf("The program received %d arguments.\n", argc - 1);
-	for (i = 1; i < argc; i++)
+	while (argc--)
 	{
-		printf("Argument %d: %s\n", i, argv[i]);
+		printf("%s\n", *argv++);
 	}
-return 0;
+return (0);
 }
