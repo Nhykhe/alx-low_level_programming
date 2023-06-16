@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <stdlib.h>
-
 /**
  * main - Find the smallest number of coins to make an amount of change
  * @argc: Arg count
